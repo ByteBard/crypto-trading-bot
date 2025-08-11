@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Freqtrade specific
+user_data/data/
+user_data/logs/
+user_data/backtest_results/
+user_data/plot/
+user_data/notebooks/.ipynb_checkpoints/
+user_data/hyperopt_results/
+*.sqlite
+*.sqlite3
+*.db
+
+# Sensitive files - API keys and secrets
+user_data/config.json
+*config_private.json
+*config_live.json
+.secrets/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# Large data files
+*.json.gz
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node modules (if using any JS tools)
+node_modules/

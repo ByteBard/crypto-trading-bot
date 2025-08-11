@@ -1,0 +1,17 @@
+freqtrade>=2023.10
+ccxt>=4.0.0
+pandas>=1.5.3
+numpy>=1.24.0
+arrow>=1.2.3
+cachetools>=5.3.0
+requests>=2.31.0
+urllib3>=2.0.0
+jsonschema>=4.17.3
+TA-Lib>=0.4.26
+technical>=1.4.0
+tabulate>=0.9.0
+pycoingecko>=3.1.0
+jinja2>=3.1.2
+questionary>=1.10.0
+prompt-toolkit>=3.0.38
+schedule>=1.2.0
